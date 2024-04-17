@@ -11,6 +11,7 @@ getAllUsers(): метод, который возвращает массив вс
 
 Используйте функцию для генерации уникального id для каждого пользователя.
 Убедитесь, что методы корректно обрабатывают добавление, удаление, обновление и поиск пользователей.
+
 const profileManager = new UserProfileManager();
 
 profileManager.addUser({ name: "Alice", email: "alice@example.com" });
